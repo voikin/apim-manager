@@ -7,7 +7,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3
 	github.com/rs/zerolog v1.34.0
 	github.com/spf13/viper v1.20.1
-	github.com/voikin/apim-proto/gen/go v0.1.5
+	github.com/voikin/apim-proto/gen/go v0.1.7
 	google.golang.org/grpc v1.71.1
 )
 
