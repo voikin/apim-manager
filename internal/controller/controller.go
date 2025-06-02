@@ -26,21 +26,30 @@ type Controller struct {
 }
 
 func New(cfg *ConfigURLs) (*Controller, error) {
-	profileStoreConn, err := grpc.NewClient(cfg.ProfileStore, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	profileStoreConn, err := grpc.NewClient(
+		cfg.ProfileStore,
+		grpc.WithTransportCredentials(insecure.NewCredentials()),
+	)
 	if err != nil {
 		return nil, fmt.Errorf("grpc.NewClient: profile store: %w", err)
 	}
 
 	profileStoreClient := profilestorepb.NewProfileStoreServiceClient(profileStoreConn)
 
-	harProfilerConn, err := grpc.NewClient(cfg.HARProfiler, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	harProfilerConn, err := grpc.NewClient(
+		cfg.HARProfiler,
+		grpc.WithTransportCredentials(insecure.NewCredentials()),
+	)
 	if err != nil {
 		return nil, fmt.Errorf("grpc.NewClient: har profiler: %w", err)
 	}
 
 	harProfilerClient := harprofilerpb.NewHARProfilerServiceClient(harProfilerConn)
 
-	openapiExporterConn, err := grpc.NewClient(cfg.OpenAPIExproter, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	openapiExporterConn, err := grpc.NewClient(
+		cfg.OpenAPIExproter,
+		grpc.WithTransportCredentials(insecure.NewCredentials()),
+	)
 	if err != nil {
 		return nil, fmt.Errorf("grpc.NewClient: openapi exporter: %w", err)
 	}
