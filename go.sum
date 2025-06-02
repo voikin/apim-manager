@@ -72,6 +72,12 @@ github.com/voikin/apim-proto/gen/go v0.1.5 h1:8ksPryNJ36f1EWOJmRA8XR22q7Q7plQAAB
 github.com/voikin/apim-proto/gen/go v0.1.5/go.mod h1:48NxGlLdETXPfrA2f6KQ5TjguX/uF3cqSaxvYS0M/f4=
 github.com/voikin/apim-proto/gen/go v0.1.7 h1:0Jc1YZEpYUMvMkooxJQPHtnRhBdAcE1hVeCgq+VbYK4=
 github.com/voikin/apim-proto/gen/go v0.1.7/go.mod h1:48NxGlLdETXPfrA2f6KQ5TjguX/uF3cqSaxvYS0M/f4=
+github.com/voikin/apim-proto/gen/go v0.1.11 h1:Ft/0nBpZnaUTJUUYyOpB1ufIuxF3FBAVXmWBdF4TGuM=
+github.com/voikin/apim-proto/gen/go v0.1.11/go.mod h1:48NxGlLdETXPfrA2f6KQ5TjguX/uF3cqSaxvYS0M/f4=
+github.com/voikin/apim-proto/gen/go v0.1.15 h1:XqOZ8EmY20Zi6hF/rT8Q3CEtLdDMOe9EpiWaIyTEspQ=
+github.com/voikin/apim-proto/gen/go v0.1.15/go.mod h1:48NxGlLdETXPfrA2f6KQ5TjguX/uF3cqSaxvYS0M/f4=
+github.com/voikin/apim-proto/gen/go v0.1.16 h1:lpf2UgKLD78nmIxguIdr9C2sV48BPf4KpKVPu5cwAe8=
+github.com/voikin/apim-proto/gen/go v0.1.16/go.mod h1:48NxGlLdETXPfrA2f6KQ5TjguX/uF3cqSaxvYS0M/f4=
 go.opentelemetry.io/auto/sdk v1.1.0 h1:cH53jehLUN6UFLY71z+NDOiNJqDdPRaXzTel0sJySYA=
 go.opentelemetry.io/auto/sdk v1.1.0/go.mod h1:3wSPjt5PWp2RhlCcmmOial7AvC4DQqZb7a7wCow3W8A=
 go.opentelemetry.io/otel v1.34.0 h1:zRLXxLCgL1WyKsPVrgbSdMN4c0FMkDAskSTQP+0hdUY=
